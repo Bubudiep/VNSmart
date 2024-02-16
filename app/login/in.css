@@ -1,0 +1,96 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+.login-container{
+  display: flex;
+  flex: 1;
+}
+.login-tab{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 250px;
+  width: 250px;
+  min-width: 250px;
+  padding: 10px;
+  color: #fff;
+  gap: 40px;
+  padding-top: 30px;
+}
+.login-tab > .login-tab-header{
+  font-size: 30px;
+  font-weight: bold;
+}
+.login-tab > .login-tab-content .login-form{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #ffffff81;
+  font-weight: 600;
+}
+.login-tab > .login-tab-content .login-form input{
+  padding: 8px 5px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ffffff17;
+  border: 1px solid #000;
+  outline: none;
+  font-size: 14px;
+}
+.login-tab > .login-tab-content .login-form button.sign-in{
+  color: #ffffff70;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #293b5d;
+  border: 1px solid #030914;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.login-tab > .login-tab-content .login-form a{
+  text-decoration: none;
+  color: #b7d6ff98;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+.login-tab > .login-tab-content .login-form a:hover{
+  text-decoration: underline;
+  color: #b7d6ffe5;
+}
+.login-tab > .login-tab-content .login-form button.sign-in:hover{
+  background-color: #234b96;
+  color: #ffffff;
+  border: 1px solid #030914;
+}
+.login-tab > .login-tab-content .login-form button.sign-in::after{
+  content: "";
+  transition: all 0.3s;
+  padding-left: 0px;
+  padding-left: 5px;
+}
+.login-tab > .login-tab-content .login-form button.sign-in:hover::after{
+  content: "➤";
+  padding-left: 10px;
+}
+.appver{
+  padding: 5px 10px;
+  color: #ffffff50;
+}
+.login-tab > .login-tab-content t{
+  display: flex;
+
+}
+.login-ads{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #ffffff0c;
+  border-radius: 10px;
+  margin: 5px;
+  overflow: hidden;
+}
