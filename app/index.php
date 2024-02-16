@@ -37,9 +37,9 @@
             <div class="left-item"><logo><i class="fa-solid fa-chart-simple"></i></logo> Thống kê</div>
             <div class="left-item"><logo><i class="fa-solid fa-clipboard-check"></i></logo> Bán hàng</div>
             <div class="left-item"><logo><i class="fa-solid fa-mug-hot"></i></logo> Thực đơn</div>
-            <div class="left-item"><logo><i class="fa-solid fa-object-group"></i></logo> Tồn kho</div>
             <div class="left-item"><logo><i class="fa-solid fa-people-group"></i></logo> Nhân lực</div>
             <div class="left-item"><logo><i class="fa-solid fa-user-tie"></i></logo> Khách hàng</div>
+            <div class="left-item"><logo><i class="fa-solid fa-object-group"></i></logo> Tồn kho</div>
           </div>
         </div>
       </div>
